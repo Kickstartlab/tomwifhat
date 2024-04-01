@@ -32,7 +32,7 @@ export default function Home() {
     }, [])
 
     return (
-        <div className="text-black-50 overflow-hidden font-nanum text-white-100">
+        <div className="overflow-hidden font-nanum text-white-100">
 
             {/* top section */}
 
@@ -51,7 +51,7 @@ export default function Home() {
                                 <a href='https://t.me/Tom_WifHat'><img src={telegram} alt='telegram' className='w-16'></img></a>
                                 <a href='/'><img src={dextool} alt='dextool' className='w-16'></img></a>
                             </div>
-                            <a href='https://ravi-inc.gitbook.io/tomwifhat/'>
+                            <a href='https://docs.tomwifhat.net/'>
                                 <button className='bg-black-50 px-10 py-2 rounded-lg text-xl'>
                                     Whitepaper
                                 </button>
@@ -289,31 +289,14 @@ export default function Home() {
                         <h3 className='md:text-6xl text-5xl font-semibold font-lucky tracking-widest text-center lg:mb-20 mb-12 uppercase'>
                             team
                         </h3>
+                        <div className='flex flex-col items-center justify-center gap-y-6 text-center'>
+                            <img src={team_1} alt='' className='lg:block lg:w-1/3 border-4 border-black-100 rounded-lg'></img>
 
-                        <div className='lg:flex items-center justify-center gap-28 lg:space-y-0 space-y-8'>
-                            <div className='lg:flex items-center gap-8'>
-                                <img src={team_1} alt='' className='mb-5 lg:block flex mx-auto'></img>
-
-                                <div className='space-y-4 lg:text-left text-center'>
-                                    <h3 className='md:text-3xl text-xl font-semibold font-lucky tracking-widest uppercase'>
-                                        Owner
-                                    </h3>
-                                    <p className='lg:text-2xl text-xl text-outline pb-6 font-lucky'>@Apeking1337</p>
-                                    <a href='https://t.me/Apeking1337' className=''><img src={telegram} alt='' className='lg:block flex mx-auto w-20'></img></a>
-                                </div>
-                            </div>
-
-                            <div className='lg:flex items-center gap-8'>
-                                <img src={team_2} alt='' className='mb-5 lg:block flex mx-auto'></img>
-
-                                <div className='space-y-4 lg:text-left text-center'>
-                                    <h3 className='md:text-3xl text-xl font-semibold font-lucky tracking-widest uppercase'>
-                                        Core
-                                    </h3>
-                                    <p className='lg:text-2xl text-xl text-outline pb-6 font-lucky'>@gogeta_Sol</p>
-                                    <a href='https://t.me/Gogeta_Sol' className=''><img src={telegram} alt='' className='lg:block flex mx-auto w-20'></img></a>
-                                </div>
-                            </div>
+                            <h3 className='md:text-3xl text-xl font-semibold font-lucky tracking-widest uppercase'>
+                                Aunker
+                            </h3>
+                            <p className='lg:text-2xl text-xl font-lucky'>Owner/CEO</p>
+                            <a href='https://t.me/paesmoreira' className=''><img src={telegram} alt='' className='lg:block flex mx-auto w-20'></img></a>
                         </div>
                     </div>
 
