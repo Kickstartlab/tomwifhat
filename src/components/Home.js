@@ -48,7 +48,7 @@ export default function Home() {
                             <div className='flex gap-8 my-8'>
                                 <a href='https://twitter.com/Tomwifhatonsol'><img src={twitter} alt='twitter' className='w-16'></img>
                                 </a>
-                                <a href='https://t.me/Tom_WifHat'><img src={telegram} alt='telegram' className='w-16'></img></a>
+                                <a href='https://t.me/TomWifHatonsol'><img src={telegram} alt='telegram' className='w-16'></img></a>
                                 <a href='/'><img src={dextool} alt='dextool' className='w-16'></img></a>
                             </div>
                             <a href='https://docs.tomwifhat.net/'>
@@ -132,7 +132,7 @@ export default function Home() {
                                 <div>
                                     <div className='flex gap-8'>
                                         <a href='https://twitter.com/Tomwifhatonsol'><img src={twitter} alt='twitter' className='w-20'></img></a>
-                                        <a href='https://t.me/Tom_WifHat'><img src={telegram} alt='telegram' className='w-20'></img></a>
+                                        <a href='https://t.me/TomWifHatonsol'><img src={telegram} alt='telegram' className='w-20'></img></a>
                                         <img src={dextool} alt='dextool' className='w-20'></img>
                                     </div>
                                 </div>
@@ -191,7 +191,7 @@ export default function Home() {
                             <div className='h-1 w-full line -translate-y-1'>
                             </div>
 
-                            <div className="lg:flex items-baseline justify-center gap-12 lg:px-20 lg:space-y-0 space-y-6 -mt-2.5">
+                            <div className="lg:flex items-baseline justify-center gap-6 lg:px-20 lg:space-y-0 space-y-6 -mt-2.5">
 
                                 <div className="flex flex-col items-center">
                                     <div data-aos="zoom-in" className="absolute -mt-3.5 lg:block hidden">
@@ -203,13 +203,14 @@ export default function Home() {
 
                                     <div className="border-l border-blue-50 lg:mt-5 mt-0 mb-3 h-14"></div>
 
-                                    <div data-aos="flip-right" className="border border-white-50 rounded-4xl p-6 lg:w-72 w-full lg:h-52 bg-black-20">
+                                    <div data-aos="flip-right" className="border border-white-50 rounded-4xl lg:p-3 p-6 lg:w-64 w-full lg:h-64 bg-black-20">
 
-                                        <h5 className="text-2xl font-semibold pt-2 font-lucky">Phase 1</h5>
+                                        <h5 className="text-xl font-semibold pt-2 font-lucky tracking-wider">Q2 2024 - Launch Phase</h5>
 
-                                        <ul className="space-y-2 mt-4 list-disc ml-4 text-black-100 text-xl">
-                                            <li>Release website and logo</li>
-                                            <li>Social media setup</li>
+                                        <ul className="mt-4 text-black-100 text-xl">
+                                            <li>Token Launch</li>
+                                            <li>Community Building</li>
+                                            <li>Liquidity Pool Establishment</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -224,13 +225,13 @@ export default function Home() {
 
                                     <div className="border-l border-blue-50 lg:mt-5 mt-0 mb-3 h-14"></div>
 
-                                    <div data-aos="flip-right" className="border border-white-50 rounded-4xl p-6 lg:w-72 w-full lg:h-52 bg-black-20">
+                                    <div data-aos="flip-right" className="border border-white-50 rounded-4xl lg:p-3 p-6 lg:w-64 w-full lg:h-64 bg-black-20">
 
-                                        <h5 className="text-2xl font-semibold pt-2 font-lucky">Phase 2</h5>
+                                        <h5 className="text-xl font-semibold pt-2 font-lucky tracking-wider">Q3 2024 - Development</h5>
 
-                                        <ul className="space-y-2 mt-4 list-disc ml-4 text-black-100 text-xl">
-                                            <li>Grow community</li>
-                                            <li>Launch the project</li>
+                                        <ul className="mt-4 text-black-100 text-xl">
+                                            <li>Meme Marketplace Beta</li>
+                                            <li>First Community Challenge</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -245,14 +246,15 @@ export default function Home() {
 
                                     <div className="border-l border-blue-50 lg:mt-5 mt-0 mb-3 h-14"></div>
 
-                                    <div data-aos="flip-right" className="border border-white-50 rounded-4xl p-6 lg:w-72 w-full lg:h-52 bg-black-20">
+                                    <div data-aos="flip-right" className="border border-white-50 rounded-4xl lg:p-3 p-6 lg:w-64 w-full lg:h-64 bg-black-20">
 
-                                        <h5 className="text-2xl font-semibold pt-2 font-lucky">Phase 3</h5>
+                                        <h5 className="text-xl font-semibold pt-2 font-lucky tracking-wider">Q4 2024 - Expansion
+                                            and Partnerships</h5>
 
-                                        <ul className="space-y-2 mt-4 list-disc ml-4 text-black-100 text-xl">
-                                            <li>Align Partnership</li>
-                                            <li>CMC Listing</li>
-                                            <li>CG Listing</li>
+                                        <ul className="mt-4 text-black-100 text-xl">
+                                            <li>TMeme Marketplace Official Launch</li>
+                                            <li>Partnership Announcements</li>
+                                            <li>Charity Initiatives</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -267,14 +269,39 @@ export default function Home() {
 
                                     <div className="border-l border-blue-50 lg:mt-5 mt-0 mb-3 h-14"></div>
 
-                                    <div data-aos="flip-right" className="border border-white-50 rounded-4xl p-6 lg:w-72 w-full lg:h-52 bg-black-20">
+                                    <div data-aos="flip-right" className="border border-white-50 rounded-4xl lg:p-3 p-6 lg:w-64 w-full lg:h-64 bg-black-20">
 
-                                        <h5 className="text-2xl font-semibold pt-2 font-lucky">Phase 4</h5>
+                                        <h5 className="text-xl font-semibold pt-2 font-lucky tracking-wider">Q1 2025 - Scaling
+                                            and Sustainability</h5>
 
-                                        <ul className="space-y-2 mt-4 list-disc ml-4 text-black-100 text-xl">
-                                            <li>Large Marketing Campaigns</li>
-                                            <li>Further Grow community</li>
-                                            <li>Listing on teir 3-2 Exchanges</li>
+                                        <ul className="mt-4 text-black-100 text-xl">
+                                            <li>Platform Upgrades</li>
+                                            <li>Global Community Events</li>
+                                            <li>Sustainability Report</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div className="flex flex-col items-center">
+                                    <div data-aos="zoom-in" className="absolute -mt-3.5 lg:block hidden">
+                                        <svg width="38" height="39" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#6284DB" />
+                                            <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#6284DB" />
+                                        </svg>
+                                    </div>
+
+                                    <div className="border-l border-blue-50 lg:mt-5 mt-0 mb-3 h-14"></div>
+
+                                    <div data-aos="flip-right" className="border border-white-50 rounded-4xl lg:p-3 p-6 lg:w-64 w-full lg:h-64 bg-black-20">
+
+                                        <h5 className="text-xl font-semibold pt-2 font-lucky tracking-wider">Q2 2025 and Beyond
+                                            - Innovations
+                                            and New Horizons</h5>
+
+                                        <ul className="mt-4 text-black-100 text-xl">
+                                            <li>New Features and Innovations
+                                                Expansion into New Markets
+                                                Ongoing Community and Charity Support</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -325,7 +352,8 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <p className='text-center pt-6 lg:text-3xl text-lg'>Copyright © 2024 TOMWIFHAT. All rights reserved.</p>
+                    <p className='text-center mt-8 lg:text-3xl text-xl'>Email: <a className='hover:underline' href='mailto:admin@tomwifhat.net'>admin@tomwifhat.net</a></p>
+                    <p className='text-center pt-3 lg:text-3xl text-xl'>Copyright © 2024 TOMWIFHAT. All rights reserved.</p>
                 </div>
             </div>
 
